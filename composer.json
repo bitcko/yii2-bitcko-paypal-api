@@ -1,0 +1,25 @@
+{
+    "name": "bitcko/yii2-bitcko-paypal-api",
+    "description": "Bitcko Yii2 Paypal Api Extension use to integrate Paypal payments in your project using Paylpal php SDK",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","paypal","api","Paypal Php api","paypal api","payment"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mhmd Backer Shehadi",
+            "email": "m.backer.shehadi@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "paypal/rest-api-sdk-php":"*"
+        
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "bitcko\\paypalapi\\": ""
+        }
+    }
+}
+
