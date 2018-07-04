@@ -29,7 +29,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 1. Create developer account in PayPal and then create an app.  [PayPal Developer Dashboard](https://developer.paypal.com/).
-2. Copy and paste the client Id and client secret in params.php file that exists in config directory:
+2. Copy and paste the client Id and client secret in params.php file that exists in app config directory:
 ```php
 <?php
 
@@ -41,7 +41,7 @@ return [
 
 
 ```
-3. Setup the extension configuration in config/web.php file for yii2 basic temp or config/main.php file for Yii2 advanced temp in components section: 
+3. Configure the extension  in components section in web.php file exists in app config directory: 
 
 ```php
 <?php
