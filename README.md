@@ -1,6 +1,6 @@
 Yii2 Bitcko PayPal PayPal Api Extension
 =========================================
-Yii2 Bitcko PayPal PayPal Api extension  use to integrate simple PayPal payment in your website.
+Yii2 Bitcko  PayPal Api extension  use to integrate simple PayPal payment in your website.
 
 Installation
 ------------
