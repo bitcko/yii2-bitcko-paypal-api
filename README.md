@@ -122,7 +122,7 @@ class SiteController extends Controller
                 'currency'=>'USD',
             ]
         ];
-      // In case of payment success this will return the payment object that contains all information about the payment
+      // In case of payment success this will return the payment object that contains all information about the order
       // In case of failure it will return Null
       return  Yii::$app->PayPalRestApi->processPayment($params);
 
