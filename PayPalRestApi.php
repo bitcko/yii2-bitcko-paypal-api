@@ -23,8 +23,6 @@ class PayPalRestApi
 {
     private $apiContext;
     public $redirectUrl;
-    public $payPalClientId;
-    public $payPalClientSecret;
 
     public function __construct()
     {
