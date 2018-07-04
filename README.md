@@ -56,6 +56,8 @@ return [
 
 ```
 4. Controller example:
+       call checkout action that will redirect you to the redirectUrl you mentioned in the previous step,
+       in this example ("/site/make-payment")
 
 ```php
 <?php
@@ -66,7 +68,7 @@ use Yii;
 
 use yii\web\Controller;
 
-class PayPalApiController extends Controller
+class SiteController extends Controller
 {
    
     public function actionCheckout(){
