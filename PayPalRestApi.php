@@ -17,6 +17,7 @@ use PayPal\Api\RedirectUrls;
 use PayPal\Api\Transaction;
 use PayPal\Api\PaymentExecution;
 use PayPal\Exception\PayPalConnectionException;
+use yii\helpers\Url;
 use Yii;
 class PayPalRestApi
 {
